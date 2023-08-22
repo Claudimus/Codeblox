@@ -1,0 +1,27 @@
+body {
+    background-color: rgba(255, 254, 252, 0.947);
+    font-display: swap;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Menlo", "Meslo LG", monospace;
+    }
+  
+    hr {
+      border-style:none;
+      border-width: 5px;
+      width: 100%
+    }
+  h1 {color:rgb(43 188 138);
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Optional: This ensures the container takes at least the full viewport height */
+}
+
+/* Apply styles to the centered heading */
+.centered {
+    text-align: center;
+}
